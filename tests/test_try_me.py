@@ -1,4 +1,4 @@
-from sharedprojectQSTC.lib import try_me
+from sharedprojectqstc.lib import try_me
 
 def test_try_me():
     user='Gerard'

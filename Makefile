@@ -5,10 +5,10 @@ install_requirements:
 	@pip install -r requirements.txt
 
 check_code:
-	@flake8 scripts/* sharedprojectQSTC/*.py
+	@flake8 scripts/* sharedprojectqstc/*.py
 
 black:
-	@black scripts/* sharedprojectQSTC/*.py
+	@black scripts/* sharedprojectqstc/*.py
 
 test:
 	@coverage run -m pytest tests/test_*.py
@@ -22,8 +22,8 @@ clean:
 	@rm -f .coverage
 	@rm -fr */__pycache__ */*.pyc __pycache__
 	@rm -fr build dist
-	@rm -fr sharedprojectQSTC-*.dist-info
-	@rm -fr sharedprojectQSTC.egg-info
+	@rm -fr sharedprojectqstc-*.dist-info
+	@rm -fr sharedprojectqstc.egg-info
 
 install:
 	@pip install . -U

@@ -1,1 +1,1 @@
-web: pip install . -U && sharedprojectQSTC-run
+web: pip install . -U && sharedprojectqstc-run
